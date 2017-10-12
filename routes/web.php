@@ -12,9 +12,6 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('shop.index');
 });
 
-Route::get('/shop', function () {
-    return view('welcome');
-});
