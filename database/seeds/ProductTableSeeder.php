@@ -11,7 +11,7 @@ class ProductTableSeeder extends Seeder
      */
     public function run()
     {
-        $product = new \App\products([
+        $product = new \App\Product([
             'imagePath' =>'http://media.nj.com/entertainment_impact_dining/photo/coffee-stock-photo-0e8b300f42157b6f.jpg',
             'title' => 'Coffee 1',
             'description' => 'descript',
@@ -19,7 +19,7 @@ class ProductTableSeeder extends Seeder
         ]);
         $product->save();
   	
-		$product = new \App\products([
+		$product = new \App\Product([
             'imagePath' =>'http://sawadacoffee.com/wp-content/uploads/Sawada-Coffee-10DEC2015-003.jpg',
             'title' => 'Coffee 2',
             'description' => 'descript',
@@ -27,7 +27,7 @@ class ProductTableSeeder extends Seeder
         ]);
         $product->save();
 
-        $product = new \App\products([
+        $product = new \App\Product([
             'imagePath' =>'http://s.hswstatic.com/gif/coffee-571245571.jpg',
             'title' => 'Coffee 3',
             'description' => 'descript',
@@ -35,7 +35,7 @@ class ProductTableSeeder extends Seeder
         ]);
         $product->save();
 
-        $product = new \App\products([
+        $product = new \App\Product([
             'imagePath' =>'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkkiscywUOn9j4gLNI75cJcPyhe-o_kpC-s81DcfS7Tdfe9ppA',
             'title' => 'Coffee 4',
             'description' => 'descript',
@@ -43,7 +43,7 @@ class ProductTableSeeder extends Seeder
         ]);
         $product->save();
  
-        $product = new \App\products([
+        $product = new \App\Product([
             'imagePath' =>'http://cdn1.theodysseyonline.com/files/2016/01/04/635875309980360751-1126142926_article%20coffee.jpg',
             'title' => 'Coffee 5',
             'description' => 'descript',
