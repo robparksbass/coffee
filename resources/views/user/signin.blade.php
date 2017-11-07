@@ -11,7 +11,7 @@
             </div>
         @endif
         <form action="{{ route('user.signin') }}" method="post">
-            <div class="form-group">
+            <div class="form-group"> 
                 <label for="email">E-Mail</label>
                 <input type="text" id="email" name="email" class="form-control">
             </div>
