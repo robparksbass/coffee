@@ -21,6 +21,12 @@ Route::get('add-to-cart/{id}', [
     'as' => 'product.addToCart'
 ]);
 
+Route::get('shopping-cart', [
+    'uses' => 'ProductController@getCart',
+    'as' => 'product.shoppingCart'
+]);
+
+
 
 Route::group(['middleware' => 'guest'], function(){
 
